@@ -1,1 +1,7 @@
+name: CI Java
 
+on: [push]
+
+jobs: 
+  call-pipeline:
+    uses: Matiasjorquera/devops-pipeline/.github/workflows/main.yml@feature-pipeline
