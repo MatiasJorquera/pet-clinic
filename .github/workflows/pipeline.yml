@@ -5,4 +5,4 @@ on: [push]
 
 jobs: 
   call-pipeline:
-    uses: Matiasjorquera/devops-pipeline/.github/workflows/main.yml@feature-pipeline
+    uses: MatiasJorquera/devops-pipeline/.github/workflows/main.yml@feature-pipeline
