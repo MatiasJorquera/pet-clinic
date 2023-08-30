@@ -6,3 +6,4 @@ on: [push]
 jobs: 
   call-pipeline:
     uses: MatiasJorquera/devops-pipeline/.github/workflows/main.yml@feature-pipeline
+    secrets: inherit
